@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>폼전송예제</title>
+</head>
+<body>
+<h1>폼전송예제</h1>
+<form method="post" action="">
+    이름<input type="text" name="name">
+    설별<br/>
+    <label>
+        남자<input type="radio" name="gender" value="man"/>
+    </label>
+    <label>
+        여자<input type="radio" name="gender" value="woman"/>
+    </label>
+    <br/>
+    취미<br/>
+    <label>
+        <input type="checkbox" value="여행" name="hobby"/>여행
+    </label>
+    <label>
+        <input type="checkbox" value="음악감상" name="hobby"/>음악감상
+    </label>
+
+    <label>
+        <input type="checkbox" value="낚시" name="hobby"/>낚시
+    </label>
+    <label>
+        <input type="checkbox" value="클럽가기" name="hobby"/>클럽가기
+    </label>
+    <br/>
+    <input type="submit" value="전송"/>
+    <input type="reset" value="취소"/>
+</form>
+
+</body>
+</html>
